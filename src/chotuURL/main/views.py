@@ -6,7 +6,7 @@ from .forms import ShortURLForm
 
 def home_view(request):
     
-    template = "main/templates/home.html"
+    template = "main\home.html"
     
     context = {}
     
